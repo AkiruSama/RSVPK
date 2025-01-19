@@ -48,7 +48,6 @@ function CountdownComp() {
                 <p className="py-2 px-2 flex flex-col gap-2">
                   <span>COUNTDOWN</span>
                   <Countdown
-{/*                     date={new Date("2069-04-20")} */}
                   date={new Date("2025-01-18")}
                     renderer={renderer}
                   />
