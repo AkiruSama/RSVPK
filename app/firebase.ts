@@ -33,7 +33,7 @@ async function sendReservation(
   waktuKehadiran: string | null
 ) {
   try {
-    await addDoc(collection(db, "reservation"), {
+    await addDoc(collection(db, "kehadiran"), {
       name: name,
       wish: wish,
       presence: presence,
