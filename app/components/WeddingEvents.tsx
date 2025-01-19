@@ -20,7 +20,7 @@ function WeddingEvents() {
               />
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
-                  <p className="rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-9 lg:-translate-x-8 tracking-[5px] leading-[1.2]">
+                  <p className="rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-8 lg:-translate-x-8 tracking-[5px] leading-[1.2]">
                     MAJLIS LELAKI
                   </p>
                 </div>
@@ -90,7 +90,7 @@ function WeddingEvents() {
                   </a>
                 </div>
                 <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
-                  <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[3rem] lg:-translate-x-[4.9rem] tracking-[5px] leading-[1.2]">
+                  <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[5rem] lg:-translate-x-[4.9rem] tracking-[5px] leading-[1.2]">
                     MAJLIS PEREMPUAN
                   </p>
                 </div>
