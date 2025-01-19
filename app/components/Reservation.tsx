@@ -50,12 +50,12 @@ function Reservation() {
       <div className="bg-[url('/images/anNur/bg.png')] bg-center bg-no-repeat bg-cover px-8 py-16 lg:px-10 space-y-8 -mt-4">
         <RevealWrapper duration={2500} origin="bottom" className="space-y-8">
           <h1 className="text-xl italic font-light text-center">
-            Reservation & Wishes
+            Kehadiran & Ucapan
           </h1>
           <p className="text-center text-[0.75rem] text-[#424242]">
-            Mohon mengisi reservasi
+            Sila isi kehadiran
             <br />
-            Satu undangan berlaku untuk 1-2 orang
+            Satu undangan disarankan untuk 1-2 orang
           </p>
           <div className="flex flex-col gap-3">
             <input
@@ -124,9 +124,8 @@ function Reservation() {
                   <option value="" disabled selected>
                     Pilih waktu kehadiran
                   </option>
-                  <option value="Akad">Akad</option>
-                  <option value="Resepsi Base 1">Resepsi Base 1</option>
-                  <option value="Resepsi Base 2">Resepsi Base 2</option>
+                  <option value="Majlis Keluarga Lelaki">Majlis Keluarga Lelaki</option>
+                  <option value="Majlis Keluarga Perempuan">Majlis Keluarga Perempuan</option>
                 </select>
                 <select
                   onChange={(e) =>
@@ -142,18 +141,21 @@ function Reservation() {
                     Pilih jumlah orang
                   </option>
                   <option value="1">1 Orang</option>
-                  <option value="2">2 Orang</option>``
+                  <option value="2">2 Orang</option>
+                  <option value="3">3 Orang</option>
+                  <option value="4">4 Orang</option>
+                  <option value="5">5 Orang</option>``
                 </select>
               </>
             )}
             <button
               onClick={() => {
                 if (inputValue.name === "")
-                  return alert("Mohon masukkan nama anda.");
+                  return alert("Sila masukkan nama anda.");
                 if (inputValue.waktuKehadiran === "")
-                  return alert("Mohon pilih waktu kehadiran.");
+                  return alert("Sila pilih waktu kehadiran.");
                 if (inputValue.numOfPeople === "")
-                  return alert("Mohon pilih jumlah orang.");
+                  return alert("Sila pilih jumlah orang.");
 
                 sendReservation(
                   inputValue.name,
@@ -173,7 +175,7 @@ function Reservation() {
               className="text-[0.75rem] bg-[#424242] flex items-center w-fit rounded text-white gap-2 py-2 px-4 font-bold hover:scale-90 ease-linear duration-[0.2s]"
             >
               <RxEnvelopeOpen />
-              <span>Kirim</span>
+              <span>Hantar</span>
             </button>
           </div>
         </RevealWrapper>
