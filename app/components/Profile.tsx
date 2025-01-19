@@ -11,24 +11,25 @@ function Profile() {
           <p className="text-center text-[0.75rem] leading-loose text-[#424242]">
             <strong>Bismillahirrahmanirrahim</strong>
             <br />
-            Assalamu'alaikum Warahmatullaahi Wabarakaatuh. Dengan memohon Rahmat
-            dan Ridho Allah SWT. Kami mengharapkan kehadiran
-            Bapak/Ibu/Saudara/i. pada acara Resepsi Pernikahan putra-putri kami
+            Assalamu'alaikum Warahmatullahi Wabarakatuh.
+            Dengan penuh harapan akan Rahmat dan Redha Allah SWT,
+            kami dengan rendah hati memohon kehadiran Tuan/Puan/Saudara/Saudari
+            ke Majlis Resepsi Perkahwinan putera-puteri kami.
           </p>
         </RevealWrapper>
         <div className="grid grid-cols-2 mt-20">
           <div className="-rotate-90 flex flex-col justify-end lg:mr-4 -translate-y-4 lg:-translate-y-4">
             <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
-                <span>THE</span>
-                <span>BRIDE</span>
+                <span>PENGANTIN</span>
+                <span>PEREMPUAN</span>
               </p>
             </RevealWrapper>
           </div>
           <RevealWrapper duration={1500} origin="right">
             <img
               src="/images/profile/women.jpg"
-              alt="Retha"
+              alt="Fulanah"
               className="translate-x-[3rem]"
             />
           </RevealWrapper>
@@ -36,15 +37,15 @@ function Profile() {
         <div className="flex flex-col items-end text-right gap-6 mt-12">
           <RevealWrapper duration={1500} origin="bottom">
             <h1 className="italic text-2xl font-light">
-              Rizkianty Retha Nurtriana
+              Fulanah Binti Fulan
             </h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
-            <strong>Putri dari</strong>
+            <strong>Puteri dari</strong>
             <br />
-            Bapak Drs Triwiyanto (Alm) dan
+            Tuan Fulan Bin Fulan (Alm) dan
             <br />
-            Ibu Nurleila Entjik Agus Hasyim
+            Puan Fulanah Binti Fulan
           </p>
           <a
             href="https://www.instagram.com/lemonnestt/"
@@ -59,15 +60,15 @@ function Profile() {
           <RevealWrapper duration={1500} origin="left">
             <img
               src="/images/profile/man.jpg"
-              alt="Akbar"
+              alt="Aqil"
               className="-translate-x-[3rem]"
             />
           </RevealWrapper>
           <div className="rotate-90 flex flex-col justify-end lg:ml-4 translate-y-4 lg:translate-y-8">
             <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
-                <span>THE</span>
-                <span>GROOM</span>
+                <span>PENGANTIN</span>
+                <span>LELAKI</span>
               </p>
             </RevealWrapper>
           </div>
@@ -75,22 +76,22 @@ function Profile() {
         <div className="flex flex-col items-start text-left gap-6 mt-12">
           <RevealWrapper duration={1500} origin="bottom">
             <h1 className="italic text-2xl font-light">
-              Akbar Pramono Ramadhan
+              Muhammad Aqil Bin Ismail
             </h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
             <strong>Putra dari</strong>
             <br />
-            Bapak Nuryantoro (Alm) dan
+            Tuan Ismail Bin Sulaiman dan
             <br />
-            Ibu Masaat Said
+            Puan Rahmah Binti Mamat
           </p>
           <a
-            href="https://www.instagram.com/akbar/"
+            href="https://www.instagram.com/qil.jpeg/"
             className="text-sm text-white bg-[#424242] px-[0.4375rem] py-1 rounded-[0.625rem] flex items-center gap-1 hover:scale-90 ease-linear duration-[0.2s]"
           >
             <AiOutlineInstagram />
-            <span>akbar</span>
+            <span>qil.jpeg</span>
             <HiArrowLongRight />
           </a>
         </div>
