@@ -91,7 +91,7 @@ function WeddingEvents() {
                 </div>
                 <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
                   <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[3rem] lg:-translate-x-[4.9rem] tracking-[5px] leading-[1.2]">
-                    12/12/2012
+                    MAJLIS PEREMPUAN
                   </p>
                 </div>
               </div>
