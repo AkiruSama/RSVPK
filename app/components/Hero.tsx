@@ -29,7 +29,7 @@ function Hero({
           <div className="flex flex-col items-center gap-2">
             <p className="text-[0.8rem]">Rumah Keluarga Ismail Sulaiman</p>
             <p className="text-[0.8rem]">
-              Lot 1308, Tmn. Sri Sentosa 1, Jln Kobena,
+              Lot 1308, Tmn. Sri Sentosa 1, Jln. Kobena,
               16800 Pasir Puteh, Kelantan.
             </p>
             <RevealWrapper duration={4000} origin="bottom">
