@@ -90,7 +90,7 @@ function WeddingEvents() {
                   </a>
                 </div>
                 <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
-                  <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[-5rem] lg:-translate-x-[4.4rem] tracking-[5px] leading-[0.9]">
+                  <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[-5rem] lg:-translate-x-[4.5rem] tracking-[5px] leading-[0.9]">
                     Majlis Perempuan
                   </p>
                 </div>
