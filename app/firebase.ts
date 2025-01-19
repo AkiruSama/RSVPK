@@ -28,12 +28,12 @@ async function sendReservation(
 ) {
   try {
     await addDoc(collection(db, "kehadiran"), {
-      name: name,
-      wish: wish,
-      presence: presence,
-      time: serverTimestamp(),
-      numOfPeople: numOfPeople,
-      waktuKehadiran: waktuKehadiran,
+      nama: name,
+      ucapan: wish,
+      kehadiran: presence,
+      masa: serverTimestamp(),
+      tetamu: numOfPeople,
+      majlis: waktuKehadiran,
     });
   } catch (e) {
     alert(e);
