@@ -10,10 +10,9 @@ function Footer() {
           <div className="flex flex-col items-center text-center gap-4 text-white p-6 z-10 relative">
             <RevealWrapper duration={1500} origin="top">
               <p className="text-[0.75rem] font-light leading-relaxed">
-                Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-                Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu
-                kepada kami. Atas kehadiran dan doanya kami mengucapkan
-                terimakasih
+                Merupakan suatu penghormatan dan kebahagiaan bagi kami sekiranya
+                Tuan/Puan/Saudara/Saudari sudi hadir dan memberikan doa restu kepada kami.
+                Kami mengucapkan terima kasih atas kehadiran dan doa yang diberikan.
               </p>
             </RevealWrapper>
             <RevealWrapper duration={1500} origin="top">
@@ -22,13 +21,18 @@ function Footer() {
               </p>
             </RevealWrapper>
             <RevealWrapper duration={1500} origin="bottom">
-              <h1 className="text-[1.75rem] font-light">Akbar & Retha</h1>
+              <h1 className="text-[1.75rem] font-light">Aqil & Fulanah</h1>
             </RevealWrapper>
           </div>
         </div>
       </div>
       <div className="bg-[#424242] p-20 flex items-center justify-center">
         <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
+      </div>
+      <div>
+            <RevealWrapper duration={1500} origin="bottom">
+            <h1 className="text-[1.75rem] font-light">&copy; 2025 Muhammad Aqil</h1>
+            </RevealWrapper>
       </div>
     </section>
   );
