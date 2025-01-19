@@ -28,10 +28,10 @@ function Footer() {
       </div>
       <div className="bg-[#424242] p-20 flex items-center justify-center">
         <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
-      </div>
-      <div>
-            <RevealWrapper duration={1500} origin="bottom">
-            <h1 className="text-[1.75rem] font-light">&copy; 2025 Muhammad Aqil</h1>
+            <RevealWrapper duration={1500} origin="top">
+              <p className="text-[0.75rem] font-light leading-relaxed">
+                &copy; 2025 Muhammad Aqil
+              </p>
             </RevealWrapper>
       </div>
     </section>
