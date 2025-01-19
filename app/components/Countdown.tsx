@@ -39,7 +39,6 @@ function CountdownComp() {
           <div className="relative z-20">
             <RevealWrapper duration={1500} origin="right">
               <p className="text-sm font-light">MAJLIS KERSYUKURAN</p>
-{/*               <p className="text-sm font-light">WALIMATULURUS</p> */}
               <h1 className="text-3xl font-light mt-2 mb-4">Aqil & Fulanah</h1>
               <div className="grid grid-cols-2 border-y border-y-white text-center text-[0.75rem] font-light">
                 <p className="leading-[1.85] py-2 px-2 border-r border-r-white flex flex-col gap-2">
