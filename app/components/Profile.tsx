@@ -41,7 +41,7 @@ function Profile() {
             </h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
-            <strong>Puteri dari</strong>
+            <strong>Puteri kepada</strong>
             <br />
             Tuan Fulan Bin Fulan (Alm) dan
             <br />
@@ -80,7 +80,7 @@ function Profile() {
             </h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
-            <strong>Putra dari</strong>
+            <strong>Putera kepada</strong>
             <br />
             Tuan Ismail Bin Sulaiman dan
             <br />
