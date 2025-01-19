@@ -24,9 +24,10 @@ function Gallery() {
             </RevealWrapper>
             <RevealWrapper origin="top" duration={1500}>
               <p className="text-[0.8rem] font-light leading-loose px-8">
-                From when I first saw you, I felt that I was finally home, all I
-                want is to make your dreams come true and share our dreams
-                together.
+                Sejak pertama pandangan menyapa, hati ini bagai menemui damai
+                dalam pelukan takdir yang mulia. Segala kudratku hanya untuk
+                menyulam impianmu, dan bersama kita anyam citra kasih dalam
+                helaian masa.
               </p>
             </RevealWrapper>
           </div>
