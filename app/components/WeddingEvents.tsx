@@ -9,19 +9,19 @@ function WeddingEvents() {
         <div className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#424242_100%)] opacity-90 absolute inset-0"></div>
         <div className="z-10 relative">
           <h1 className="text-xl italic text-white text-center font-light">
-            Wedding Events
+            Tarikh Majlis
           </h1>
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-10">
               <img
                 src="/images/weddingEvents/akad.jpg"
-                alt="akad"
+                alt="Majlis Keluarga Lelaki"
                 className="w-full h-72 object-cover rounded-t-[1.25rem]"
               />
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
                   <p className="rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-5 lg:-translate-x-3.5 tracking-[5px]">
-                    AKAD
+                    MAJLIS KELUARGA LELAKI
                   </p>
                 </div>
                 <div className="w-[80%] bg-white px-4 py-6 rounded-br-[1.25rem] flex flex-col gap-5 items-baseline">
@@ -55,7 +55,7 @@ function WeddingEvents() {
             <div className="mt-6">
               <img
                 src="/images/weddingEvents/resepsi.jpg"
-                alt="akad"
+                alt="Majlis Keluarga Lelaki"
                 className="w-full h-72 object-cover rounded-t-[1.25rem] object-left"
               />
               <div className="flex">
@@ -91,7 +91,7 @@ function WeddingEvents() {
                 </div>
                 <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
                   <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[3rem] lg:-translate-x-[2.35rem] tracking-[5px]">
-                    RESEPSI
+                    MAJLIS KELUARGA PEREMPUAN
                   </p>
                 </div>
               </div>
