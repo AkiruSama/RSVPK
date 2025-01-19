@@ -18,7 +18,7 @@ function Profile() {
           </p>
         </RevealWrapper>
         <div className="grid grid-cols-2 mt-20">
-          <div className="-rotate-90 flex flex-col justify-end lg:mr-4 -translate-y-2 lg:-translate-y-2">
+          <div className="-rotate-90 flex flex-col justify-end lg:mr-4 -translate-y-4 lg:-translate-y-4">
             <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
                 <span>PENGANTIN</span>
