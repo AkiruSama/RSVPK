@@ -7,12 +7,19 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBK1nKQekutTgGUw4D6JNQlzP71z0XXgO4",
-  authDomain: "wedding-public.firebaseapp.com",
-  projectId: "wedding-public",
-  storageBucket: "wedding-public.appspot.com",
-  messagingSenderId: "1089501681156",
-  appId: "1:1089501681156:web:5f672b33c24803f8ed0751",
+  // apiKey: "AIzaSyDwxJTYSzMzyVhkbp2XyiB9FvyMpD3CzmM",
+  // authDomain: "kehadiran-rsvp-2401.firebaseapp.com",
+  // projectId: "wedding-public",
+  // storageBucket: "kehadiran-rsvp-2401",
+  // messagingSenderId: "1089501681156",
+  // appId: "1:1089501681156:web:5f672b33c24803f8ed0751",
+  apiKey: "AIzaSyDwxJTYSzMzyVhkbp2XyiB9FvyMpD3CzmM",
+  authDomain: "kehadiran-rsvp-2401.firebaseapp.com",
+  projectId: "kehadiran-rsvp-2401",
+  storageBucket: "kehadiran-rsvp-2401.firebasestorage.app",
+  messagingSenderId: "712107323943",
+  appId: "1:712107323943:web:b86fe7a0554dc3b607d402",
+  measurementId: "G-6H7EEF9F08"
 };
 
 const app = initializeApp(firebaseConfig);
