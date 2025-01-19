@@ -9,7 +9,7 @@ function ArRum() {
           <h1 className="italic text-4xl flex gap-4 text-[#A99C86]">
             <span>A</span>
             <span>&</span>
-            <span>R</span>
+            <span>F</span>
           </h1>
         </RevealWrapper>
         <RevealWrapper duration={1500} origin="top">
