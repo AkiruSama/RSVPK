@@ -7,12 +7,6 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  // apiKey: "AIzaSyDwxJTYSzMzyVhkbp2XyiB9FvyMpD3CzmM",
-  // authDomain: "kehadiran-rsvp-2401.firebaseapp.com",
-  // projectId: "wedding-public",
-  // storageBucket: "kehadiran-rsvp-2401",
-  // messagingSenderId: "1089501681156",
-  // appId: "1:1089501681156:web:5f672b33c24803f8ed0751",
   apiKey: "AIzaSyDwxJTYSzMzyVhkbp2XyiB9FvyMpD3CzmM",
   authDomain: "kehadiran-rsvp-2401.firebaseapp.com",
   projectId: "kehadiran-rsvp-2401",
